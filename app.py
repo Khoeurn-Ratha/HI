@@ -415,7 +415,7 @@ async def lifespan(app: FastAPI):
   yield
 
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(debug=True)
 
 
 # --- 4. Routes ---
